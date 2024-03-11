@@ -39,7 +39,6 @@ p {
   border-radius: 100%;
 
   opacity: 0;
-  place-items: center;
 
   cursor: pointer;
 
@@ -49,7 +48,7 @@ p {
   z-index: 10;
 }
 
-.show-btn {
+.show-btn-scroll-top {
   opacity: 1 !important;
   pointer-events: all !important;
 }
