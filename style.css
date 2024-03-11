@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  padding: 0 2rem;
+}
+
+h1,
+p {
+  color: white;
+}
+
+.cover {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-scroll-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+
+  display: grid;
+  place-items: "center";
+
+  outline: none;
+  border-radius: 100%;
+
+  opacity: 0;
+  place-items: center;
+
+  cursor: pointer;
+
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+.show-btn {
+  opacity: 1 !important;
+  pointer-events: all !important;
+}
